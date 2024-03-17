@@ -1,0 +1,15 @@
+List<String> photos = [
+  'poker01.png',
+  'poker02.jpg',
+  'poker03.jpg',
+  'poker04.jpg',
+  'poker05.jpg',
+  'poker06.jpg',
+  'poker07.jpg',
+  'poker08.jpg',
+  'poker09.jpg',
+  'poker10.jpg',
+  'poker11.png',
+  'poker12.jpg',
+  'poker13.jpg',
+];
