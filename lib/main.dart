@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poker_game/body.dart';
-
+import 'package:poker_game/home.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,15 +12,16 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       theme: ThemeData(useMaterial3: false),
       home: Scaffold(
+        backgroundColor: Colors.red.shade400,
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          backgroundColor: Colors.red,
+          elevation: 1,
+          title: const Text('Game Lesson'),
         ),
-        body: const Padding(
-          padding:  EdgeInsets.all(8.0),
-          child:  Body(),
-        ),
+        body: Home(),
       ),
     );
   }
 }
+
 
